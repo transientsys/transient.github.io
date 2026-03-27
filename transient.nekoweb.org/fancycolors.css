@@ -1,0 +1,70 @@
+body {
+  background-image: url('https://64.media.tumblr.com/56ccc4c74ad34e7f1ba310ae0c4cadea/d35a089ef2def07a-a5/s540x810/e1cf71d93a8b179e5f8209fc7ee76d55bf735bbc.pnj');
+  background-size:500px 500px;
+  color: #5BA97F;
+  font-family:  'MS UI Gothic', verdana;
+}
+
+hr {
+	border-color: #5BA97F;
+	border-width:1px;
+	border-style: solid;
+	
+}
+
+div {
+	background-color: #ffffff;
+	padding: 10px;
+	max-width: 650px;
+	outline: 2px solid #5BA97F;
+}
+
+a {
+	color: #0BB18B;
+}
+
+a:hover {
+	color:#029D7B;
+}
+
+button {
+	  font-family:  'MS UI Gothic', verdana;
+}
+
+table, td {
+max-width: 200px;
+padding: 20px;
+text-align: center
+}
+
+/* Thanks w3c */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #fff;
+  color: #0BB18B;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 2px solid #5BA97F;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #f1f1f1;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 15px;
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+  outline:2px solid #5BA97F;
+  margin-top: -14px;
+}
+

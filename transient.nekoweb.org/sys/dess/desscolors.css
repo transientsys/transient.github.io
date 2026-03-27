@@ -1,0 +1,28 @@
+			body {
+				background-image: url('https://64.media.tumblr.com/ab1531dd6faf530cd6e27be0197d97cf/e05bf2c64af0ed7b-84/s250x400/a37f1244696d48031855de9fba6a1ee98a480338.jpg');
+				background-size:500px 500px;
+				color: #00BBFF;
+				font-family:  'MS UI Gothic', verdana;
+			}
+			
+			hr {
+				border-color: #00BBFF;
+				border-width:1px;
+				border-style: solid;
+	
+			}
+
+			div {
+				background-color: #000000;
+				padding: 10px;
+				max-width: 650px;
+				outline: 2px solid #00BBFF;
+			}
+
+			a {
+				color: #00BBFF;
+			}
+
+			a:hover {
+				color:#00BBFF;
+			}

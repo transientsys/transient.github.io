@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://transient.nekoweb.org/fancycolors.css"
+		/>
+		<title>transient cats</title>
+		<style>
+		body{
+		 background-image: url('https://64.media.tumblr.com/0d75213d61be03fd8cbec4846b427d63/d35a089ef2def07a-42/s400x600/07a59e019c0c238bbdb3fe5f5cda610e843c6f06.pnj');
+		}
+			img {
+				max-height:300px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>my beautiful cats</h2>
+						<hr>
+				<p><a href='/index.html'>🧺 </a>  —  <a href='/other/cats'>cats</a>  —  <a href='/other/art'>art</a>  —  <a href='/other/fiber'>crochet/knit</a>   —  <a href='/sys'>diaries</a>  —  🧺</p>
+			<hr/>
+			
+			<button type="button" class="collapsible">Charlie</button>
+			<div class="content">
+				<img src='https://files.catbox.moe/xez282.png'>
+				<img src='https://files.catbox.moe/v4won7.png'>
+				<img src='https://files.catbox.moe/8ga1ww.png'>
+			</div>
+			<br>
+			<button type="button" class="collapsible">Brisket</button>
+			<div class="content">
+				<img src='https://files.catbox.moe/i7s8yw.png'>
+				<img src='https://files.catbox.moe/c09ehd.png'>
+				<img src='https://files.catbox.moe/v4e3qp.png'>
+			</div>
+			<br>
+			<button type="button" class="collapsible">Vanta</button>
+			<div class="content">
+				<img src='https://files.catbox.moe/x9msnc.png'>
+				<img src='https://files.catbox.moe/wwjdk8.png'>
+			</div>
+			<br>
+			<button type="button" class="collapsible">Honey</button>
+			<div class="content">
+				<p>This is the dead one btw</p>
+				<img src='https://files.catbox.moe/ktnqme.png'>
+				<img src='https://files.catbox.moe/eeqspq.png'>
+				<img src='https://files.catbox.moe/2pr6oa.png'>
+			</div>
+			
+		</div>
+
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.display === "block") {
+			      content.style.display = "none";
+			    } else {
+			      content.style.display = "block";
+			    }
+			  });
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://transient.nekoweb.org/fancycolors.css"
+		/>
+		<title>transient fiber</title>
+		<style>
+					body{
+		 background-image: url('https://64.media.tumblr.com/ad86d1dd2be8558cb048188e91536c1e/ae4b356eeeb820f6-95/s400x600/b5a7c527aa45a54a84dca5152353cf606979c382.pnj');
+		 background-size:300px 300px;
+		}
+			img {
+				max-height:300px;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<h2>my beautiful fiber</h2>
+			<hr>
+				<p><a href='/index.html'>🧺 </a>  —  <a href='/other/cats'>cats</a>  —  <a href='/other/art'>art</a>  —  <a href='/other/fiber'>crochet/knit</a>   —  <a href='/sys'>diaries</a>  —  🧺</p>
+			<hr/>
+			
+			<button type="button" class="collapsible">crochet</button>
+			<div class="content">
+				<p>There WILL be images here soon. i just Need to get them.</p>
+			</div>
+			<br>
+			
+			<button type="button" class="collapsible">knit</button>
+			<div class="content">
+				<p>There WILL be images here soon. i just Need to get them.</p>
+			</div>
+			<br>
+			
+		</div>
+
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.display === "block") {
+			      content.style.display = "none";
+			    } else {
+			      content.style.display = "block";
+			    }
+			  });
+			}
+		</script>
+	</body>
+</html>
